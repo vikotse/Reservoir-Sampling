@@ -23,4 +23,4 @@ Efficiency
 ----------
 If number of lines on input file is N. Time complexity is O(N). Space complexity is O(K) (regardless of the size of one line).
 
-If K is equal or larger than N, output file would be same as input file.
+If K >= N, output file would be same as input file.
