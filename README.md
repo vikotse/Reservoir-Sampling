@@ -7,8 +7,13 @@ Usage
 -----
 This module is using Reservoir Sampling to randomly choose exactly K (Sample Number) rows on input file. Sampling result's row order is the same as input file.
 
-	$ python reservoir_sampling.py input.txt output.txt 3
-	require arguments: [infile] [outfile] [K]
+	using in python 2.7
+	$ py -2 reservoir_sampling_py27.py input.txt output.txt 4
+	arguments: [python-version] [pyfile] [infile] [outfile] [K]
+
+	using in python 3.6
+	& py -3 reservoir_sampling_py36.py input.txt output.txt 4
+	arguments: [python-version] [pyfile] [infile] [outfile] [K]
 
 Efficiency
 ----------
