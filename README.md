@@ -21,6 +21,6 @@ Sampling result's row order is the same as input file.
 
 Efficiency
 ----------
-Suppose number of lines on input file is N. Time complexity is O(N). Space complexity is O(K) (regardless of the size of one line).
+Suppose number of lines on input file is N. Time complexity is O(N). Space complexity is O(K) (regardless of the size of per line in file).
 
 If K >= N, output file would be same as input file.
